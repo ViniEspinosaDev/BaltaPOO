@@ -1,7 +1,7 @@
 ﻿using BaltaPOO.NotificationContext;
 using System;
 
-namespace BaltaPOO.ContentContext
+namespace BaltaPOO.SharedContext
 {
     public abstract class Base : Notifiable
     {

@@ -1,4 +1,5 @@
 ﻿using BaltaPOO.ContentContext;
+using BaltaPOO.SubscriptionContext;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -50,6 +51,9 @@ namespace BaltaPOO
                         Console.WriteLine($"Retorno: {item.Notifications.First().Message}");
                 }
             }
+
+            var student = new Student();
+            student.CreateSubscription(new Subscription());
         }
     }
 }
